@@ -13,7 +13,9 @@ call npm run build
 
 echo.
 echo [3/3] Packaging Electron App (Installer) ...
-set GH_TOKEN=ghp_z1upWi5Cel5IgusX3oxP4PcefM1u01X04Ua
+echo.
+set /p GH_TOKEN=Enter your GitHub Token (ghp_...): 
+echo Using token: %GH_TOKEN:~0,10%...
 call npm exec electron-builder -- --win --publish always
 
 echo.
