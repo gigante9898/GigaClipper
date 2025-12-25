@@ -1,6 +1,7 @@
 import electron from 'electron';
 const { app, BrowserWindow, ipcMain } = electron;
-import { autoUpdater } from "electron-updater";
+import pkg from "electron-updater";
+const { autoUpdater } = pkg;
 import path from 'path';
 import { fileURLToPath } from 'url';
 
@@ -103,41 +104,8 @@ app.whenReady().then(() => {
     startPythonServer();
     createWindow();
 
-    // AutoUpdater logic
-    autoUpdater.checkForUpdatesAndNotify();
-
-    ipcMain.on('check-for-updates', () => {
-        autoUpdater.checkForUpdates();
-    });
-
-    ipcMain.on('download-update', () => {
-        autoUpdater.downloadUpdate();
-    });
-
-    ipcMain.on('quit-and-install', () => {
-        autoUpdater.quitAndInstall();
-    });
-
-    // Forward events to renderer
-    autoUpdater.on('update-available', (info) => {
-        BrowserWindow.getAllWindows().forEach(win => win.webContents.send('update-available', info));
-    });
-
-    autoUpdater.on('update-not-available', (info) => {
-        BrowserWindow.getAllWindows().forEach(win => win.webContents.send('update-not-available', info));
-    });
-
-    autoUpdater.on('update-downloaded', (info) => {
-        BrowserWindow.getAllWindows().forEach(win => win.webContents.send('update-downloaded', info));
-    });
-
-    autoUpdater.on('download-progress', (progressObj) => {
-        BrowserWindow.getAllWindows().forEach(win => win.webContents.send('download-progress', progressObj));
-    });
-
-    autoUpdater.on('error', (err) => {
-        BrowserWindow.getAllWindows().forEach(win => win.webContents.send('update-error', err.toString()));
-    });
+    // Note: Updates are now handled via Gist fetch in the renderer process
+    // No electron-updater needed for private repo
 
     app.on('activate', () => {
         if (BrowserWindow.getAllWindows().length === 0) {

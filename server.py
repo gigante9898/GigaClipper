@@ -1,18 +1,39 @@
-from flask import Flask, request, jsonify, send_from_directory, send_file, Response
-from flask_cors import CORS
-import threading
 import os
 import sys
-import psutil
-import time
-import keyboard
-import tkinter as tk
-from pathlib import Path
-import subprocess
-import ctypes
-from datetime import datetime
+import traceback
 
-from core import ConfigManager, RecorderEngine, DriveClient, safe_log, get_ffmpeg_path
+# ================= CRASH LOGGER =================
+def log_crash(error):
+    """Log fatal errors to a user-visible location"""
+    try:
+        app_name = "GigaClipper"
+        log_dir = os.path.join(os.getenv('APPDATA', os.path.expanduser("~")), app_name)
+        os.makedirs(log_dir, exist_ok=True)
+        log_path = os.path.join(log_dir, "crash_log.txt")
+        with open(log_path, "a", encoding="utf-8") as f:
+            f.write(f"\n{'='*60}\nCRASH at {__import__('datetime').datetime.now()}\n{error}\n")
+        print(f"Crash logged to: {log_path}")
+    except:
+        pass
+
+# ================= SAFE IMPORTS =================
+try:
+    from flask import Flask, request, jsonify, send_from_directory, send_file, Response
+    from flask_cors import CORS
+    import threading
+    import psutil
+    import time
+    import keyboard
+    import tkinter as tk
+    from pathlib import Path
+    import subprocess
+    import ctypes
+    from datetime import datetime
+    from core import ConfigManager, RecorderEngine, DriveClient, safe_log, get_ffmpeg_path
+except Exception as e:
+    log_crash(f"Import Error:\n{traceback.format_exc()}")
+    input("Press Enter to exit...")  # Keep console open
+    sys.exit(1)
 
 # Ctypes Setup for Window Listing
 try:

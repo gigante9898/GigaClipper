@@ -197,55 +197,42 @@ function App() {
     }
   };
 
-  // Check for updates
-  const checkForUpdates = (manual = false) => {
-    if (window.electronAPI) {
+  // Check for updates from public Gist
+  const GIST_UPDATE_URL = "https://gist.githubusercontent.com/gigante9898/b0e532a86aaa51f7eaf97b037d7fc6fe/raw/gigaclipper-update.json";
+
+  const checkForUpdates = async (manual = false) => {
+    try {
       if (manual) showToast("🔍 Checking for updates...");
-      window.electronAPI.sendMessage('check-for-updates');
+
+      const response = await fetch(GIST_UPDATE_URL + "?t=" + Date.now()); // Cache bust
+      if (!response.ok) throw new Error("Failed to fetch update info");
+
+      const updateInfo = await response.json();
+      const currentVersion = APP_VERSION;
+
+      if (updateInfo.version && updateInfo.version !== currentVersion) {
+        setUpdateAvailable(updateInfo);
+        if (manual) showToast(`🎉 Update available: v${updateInfo.version}`);
+      } else {
+        if (manual) showToast("✅ You're on the latest version!");
+      }
+    } catch (error) {
+      console.log("Update check failed:", error);
+      if (manual) showToast("❌ Could not check for updates");
     }
   };
 
   const handleUpdate = () => {
-    if (updateAvailable) {
-      setUpdating(true);
-      window.electronAPI.sendMessage('quit-and-install');
+    if (updateAvailable?.downloadUrl) {
+      // Open download link in browser
+      window.open(updateAvailable.downloadUrl, '_blank');
+      showToast("📥 Opening download page...");
     }
   };
 
-  // Listen for update events
+  // Check updates on startup
   useEffect(() => {
-    if (!window.electronAPI) return;
-
-    window.electronAPI.onMessage('update-available', (info: any) => {
-      setUpdateAvailable(info);
-      showToast(`🎉 Update available: ${info.version}`);
-    });
-
-    window.electronAPI.onMessage('update-not-available', () => {
-      // Only show toast if manual check (how to know? maybe store state)
-      // For now, silent on init, we can ignore or show simple log
-      console.log("No update available");
-    });
-
-    window.electronAPI.onMessage('update-downloaded', (info: any) => {
-      setUpdateAvailable({ ...info, downloaded: true });
-      showToast("✅ Update downloaded! Click 'Update' to restart.");
-      setUpdating(false);
-    });
-
-    window.electronAPI.onMessage('download-progress', (progressObj: any) => {
-      // Optional: Update progress UI
-      console.log(`Download progress: ${progressObj.percent}%`);
-    });
-
-    window.electronAPI.onMessage('update-error', (err: string) => {
-      setUpdating(false);
-      showToast(`❌ Update error: ${err}`);
-    });
-
-    // Check on startup
     checkForUpdates();
-
   }, []);
 
   // Check Cloud Auth Status
