@@ -100,7 +100,6 @@ function App() {
   const [confirmModal, setConfirmModal] = useState<{ message: string, onConfirm: () => void } | null>(null);
   const libraryRequestId = useRef(0);
   const [updateAvailable, setUpdateAvailable] = useState<any>(null);
-  const [updating, setUpdating] = useState(false);
   const APP_VERSION = "1.0.0";
 
   // Show toast notification
@@ -197,41 +196,47 @@ function App() {
     }
   };
 
-  // Check for updates from public Gist
-  const GIST_UPDATE_URL = "https://gist.githubusercontent.com/gigante9898/b0e532a86aaa51f7eaf97b037d7fc6fe/raw/gigaclipper-update.json";
-
-  const checkForUpdates = async (manual = false) => {
-    try {
+  // Check for updates via electron-updater (requires public GitHub repo)
+  const checkForUpdates = (manual = false) => {
+    if (window.electronAPI) {
       if (manual) showToast("🔍 Checking for updates...");
-
-      const response = await fetch(GIST_UPDATE_URL + "?t=" + Date.now()); // Cache bust
-      if (!response.ok) throw new Error("Failed to fetch update info");
-
-      const updateInfo = await response.json();
-      const currentVersion = APP_VERSION;
-
-      if (updateInfo.version && updateInfo.version !== currentVersion) {
-        setUpdateAvailable(updateInfo);
-        if (manual) showToast(`🎉 Update available: v${updateInfo.version}`);
-      } else {
-        if (manual) showToast("✅ You're on the latest version!");
-      }
-    } catch (error) {
-      console.log("Update check failed:", error);
-      if (manual) showToast("❌ Could not check for updates");
+      window.electronAPI.sendMessage('check-for-updates');
     }
   };
 
   const handleUpdate = () => {
-    if (updateAvailable?.downloadUrl) {
-      // Open download link in browser
-      window.open(updateAvailable.downloadUrl, '_blank');
-      showToast("📥 Opening download page...");
+    if (updateAvailable) {
+      window.electronAPI.sendMessage('quit-and-install');
     }
   };
 
-  // Check updates on startup
+  // Listen for update events from main process
   useEffect(() => {
+    if (!window.electronAPI) return;
+
+    window.electronAPI.onMessage('update-available', (info: any) => {
+      setUpdateAvailable(info);
+      showToast(`🎉 Update available: v${info.version}`);
+    });
+
+    window.electronAPI.onMessage('update-not-available', () => {
+      console.log("No update available");
+    });
+
+    window.electronAPI.onMessage('update-downloaded', (info: any) => {
+      setUpdateAvailable({ ...info, downloaded: true });
+      showToast("✅ Update ready! Click to restart.");
+    });
+
+    window.electronAPI.onMessage('download-progress', (progress: any) => {
+      console.log(`Download: ${Math.round(progress.percent)}%`);
+    });
+
+    window.electronAPI.onMessage('update-error', (err: string) => {
+      console.log("Update error:", err);
+    });
+
+    // Check on startup
     checkForUpdates();
   }, []);
 
@@ -1281,11 +1286,10 @@ function App() {
 
               <button
                 className="btn-primary"
-                style={{ width: '100%', background: '#10b981', display: 'flex', justifyContent: 'center', gap: '8px', cursor: updating ? 'not-allowed' : 'pointer' }}
+                style={{ width: '100%', background: '#10b981', display: 'flex', justifyContent: 'center', gap: '8px' }}
                 onClick={handleUpdate}
-                disabled={updating}
               >
-                {updating ? 'Downloading...' : 'Update & Restart'}
+                Update & Restart
               </button>
             </div>
           )}

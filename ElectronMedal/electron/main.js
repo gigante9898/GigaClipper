@@ -104,8 +104,37 @@ app.whenReady().then(() => {
     startPythonServer();
     createWindow();
 
-    // Note: Updates are now handled via Gist fetch in the renderer process
-    // No electron-updater needed for private repo
+    // Auto-update via GitHub Releases (repo must be public)
+    autoUpdater.checkForUpdatesAndNotify();
+
+    ipcMain.on('check-for-updates', () => {
+        autoUpdater.checkForUpdates();
+    });
+
+    ipcMain.on('quit-and-install', () => {
+        autoUpdater.quitAndInstall();
+    });
+
+    // Forward update events to renderer
+    autoUpdater.on('update-available', (info) => {
+        BrowserWindow.getAllWindows().forEach(win => win.webContents.send('update-available', info));
+    });
+
+    autoUpdater.on('update-not-available', (info) => {
+        BrowserWindow.getAllWindows().forEach(win => win.webContents.send('update-not-available', info));
+    });
+
+    autoUpdater.on('update-downloaded', (info) => {
+        BrowserWindow.getAllWindows().forEach(win => win.webContents.send('update-downloaded', info));
+    });
+
+    autoUpdater.on('download-progress', (progress) => {
+        BrowserWindow.getAllWindows().forEach(win => win.webContents.send('download-progress', progress));
+    });
+
+    autoUpdater.on('error', (err) => {
+        BrowserWindow.getAllWindows().forEach(win => win.webContents.send('update-error', err.toString()));
+    });
 
     app.on('activate', () => {
         if (BrowserWindow.getAllWindows().length === 0) {
