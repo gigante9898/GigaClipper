@@ -1,0 +1,954 @@
+[2025-12-24 05:18:01] Starting Python Server on port 5000...
+[2025-12-24 05:18:02] Google Drive authentication successful.
+[2025-12-24 05:18:11] Thumbnail error: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-24 05:18:11] Thumbnail error: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-24 05:18:14] Thumbnail error: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-24 05:18:14] Thumbnail error: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-24 05:19:06] Thumbnail error: The read operation timed out
+[2025-12-24 05:22:22] Starting Python Server on port 5000...
+[2025-12-24 05:22:22] Google Drive authentication successful.
+[2025-12-24 05:23:13] Thumbnail error: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-24 05:23:13] Thumbnail error: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-24 05:23:32] Thumbnail error: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-24 05:23:32] Thumbnail error: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-24 05:23:32] Thumbnail error: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-24 05:24:13] Thumbnail error: [SSL: DECRYPTION_FAILED_OR_BAD_RECORD_MAC] decryption failed or bad record mac (_ssl.c:2657)
+[2025-12-24 05:24:23] Thumbnail error: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-24 05:24:24] Thumbnail error: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-24 05:24:24] Thumbnail error: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-24 05:24:33] Drive Stream Chunk Error: 'NoneType' object has no attribute 'close'
+[2025-12-24 05:24:33] Error streaming video loop: 'NoneType' object has no attribute 'close'
+[2025-12-24 05:24:44] Drive Stream HttpError: b'{\n  "error": {\n    "code": 404,\n    "message": "File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.",\n    "errors": [\n      {\n        "message": "File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.",\n        "domain": "global",\n        "reason": "notFound",\n        "location": "fileId",\n        "locationType": "parameter"\n      }\n    ]\n  }\n}\n'
+[2025-12-24 05:24:44] Error streaming video loop: <HttpError 404 when requesting https://www.googleapis.com/drive/v3/files/1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E?alt=media returned "File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.". Details: "[{'message': 'File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+[2025-12-24 05:24:44] Error listing videos: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-24 05:24:44] Drive Stream HttpError: b'{\n  "error": {\n    "code": 404,\n    "message": "File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.",\n    "errors": [\n      {\n        "message": "File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.",\n        "domain": "global",\n        "reason": "notFound",\n        "location": "fileId",\n        "locationType": "parameter"\n      }\n    ]\n  }\n}\n'
+[2025-12-24 05:24:44] Error streaming video loop: <HttpError 404 when requesting https://www.googleapis.com/drive/v3/files/1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E?alt=media returned "File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.". Details: "[{'message': 'File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+[2025-12-24 05:24:45] Drive Stream HttpError: b'{\n  "error": {\n    "code": 404,\n    "message": "File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.",\n    "errors": [\n      {\n        "message": "File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.",\n        "domain": "global",\n        "reason": "notFound",\n        "location": "fileId",\n        "locationType": "parameter"\n      }\n    ]\n  }\n}\n'
+[2025-12-24 05:24:45] Error streaming video loop: <HttpError 404 when requesting https://www.googleapis.com/drive/v3/files/1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E?alt=media returned "File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.". Details: "[{'message': 'File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+[2025-12-24 05:24:46] Drive Stream HttpError: b'{\n  "error": {\n    "code": 404,\n    "message": "File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.",\n    "errors": [\n      {\n        "message": "File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.",\n        "domain": "global",\n        "reason": "notFound",\n        "location": "fileId",\n        "locationType": "parameter"\n      }\n    ]\n  }\n}\n'
+[2025-12-24 05:24:46] Error streaming video loop: <HttpError 404 when requesting https://www.googleapis.com/drive/v3/files/1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E?alt=media returned "File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.". Details: "[{'message': 'File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+[2025-12-24 05:24:46] Error listing videos: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-24 05:24:46] Drive Stream HttpError: b'{\n  "error": {\n    "code": 404,\n    "message": "File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.",\n    "errors": [\n      {\n        "message": "File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.",\n        "domain": "global",\n        "reason": "notFound",\n        "location": "fileId",\n        "locationType": "parameter"\n      }\n    ]\n  }\n}\n'
+[2025-12-24 05:24:46] Error streaming video loop: <HttpError 404 when requesting https://www.googleapis.com/drive/v3/files/1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E?alt=media returned "File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.". Details: "[{'message': 'File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+[2025-12-24 05:24:47] Drive Stream HttpError: b'{\n  "error": {\n    "code": 404,\n    "message": "File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.",\n    "errors": [\n      {\n        "message": "File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.",\n        "domain": "global",\n        "reason": "notFound",\n        "location": "fileId",\n        "locationType": "parameter"\n      }\n    ]\n  }\n}\n'
+[2025-12-24 05:24:47] Error streaming video loop: <HttpError 404 when requesting https://www.googleapis.com/drive/v3/files/1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E?alt=media returned "File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.". Details: "[{'message': 'File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+[2025-12-24 05:24:48] Drive Stream HttpError: b'{\n  "error": {\n    "code": 404,\n    "message": "File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.",\n    "errors": [\n      {\n        "message": "File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.",\n        "domain": "global",\n        "reason": "notFound",\n        "location": "fileId",\n        "locationType": "parameter"\n      }\n    ]\n  }\n}\n'
+[2025-12-24 05:24:48] Error streaming video loop: <HttpError 404 when requesting https://www.googleapis.com/drive/v3/files/1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E?alt=media returned "File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.". Details: "[{'message': 'File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+[2025-12-24 05:24:48] Drive Stream HttpError: b'{\n  "error": {\n    "code": 404,\n    "message": "File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.",\n    "errors": [\n      {\n        "message": "File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.",\n        "domain": "global",\n        "reason": "notFound",\n        "location": "fileId",\n        "locationType": "parameter"\n      }\n    ]\n  }\n}\n'
+[2025-12-24 05:24:48] Error streaming video loop: <HttpError 404 when requesting https://www.googleapis.com/drive/v3/files/1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E?alt=media returned "File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.". Details: "[{'message': 'File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+[2025-12-24 05:24:49] Error listing videos: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-24 05:24:50] Drive Stream HttpError: b'{\n  "error": {\n    "code": 404,\n    "message": "File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.",\n    "errors": [\n      {\n        "message": "File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.",\n        "domain": "global",\n        "reason": "notFound",\n        "location": "fileId",\n        "locationType": "parameter"\n      }\n    ]\n  }\n}\n'
+[2025-12-24 05:24:50] Error streaming video loop: <HttpError 404 when requesting https://www.googleapis.com/drive/v3/files/1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E?alt=media returned "File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.". Details: "[{'message': 'File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+[2025-12-24 05:24:50] Drive Stream HttpError: b'{\n  "error": {\n    "code": 404,\n    "message": "File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.",\n    "errors": [\n      {\n        "message": "File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.",\n        "domain": "global",\n        "reason": "notFound",\n        "location": "fileId",\n        "locationType": "parameter"\n      }\n    ]\n  }\n}\n'
+[2025-12-24 05:24:50] Error streaming video loop: <HttpError 404 when requesting https://www.googleapis.com/drive/v3/files/1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E?alt=media returned "File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.". Details: "[{'message': 'File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+[2025-12-24 05:24:51] Drive Stream HttpError: b'{\n  "error": {\n    "code": 404,\n    "message": "File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.",\n    "errors": [\n      {\n        "message": "File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.",\n        "domain": "global",\n        "reason": "notFound",\n        "location": "fileId",\n        "locationType": "parameter"\n      }\n    ]\n  }\n}\n'
+[2025-12-24 05:24:51] Error streaming video loop: <HttpError 404 when requesting https://www.googleapis.com/drive/v3/files/1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E?alt=media returned "File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.". Details: "[{'message': 'File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+[2025-12-24 05:24:52] Drive Stream HttpError: b'{\n  "error": {\n    "code": 404,\n    "message": "File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.",\n    "errors": [\n      {\n        "message": "File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.",\n        "domain": "global",\n        "reason": "notFound",\n        "location": "fileId",\n        "locationType": "parameter"\n      }\n    ]\n  }\n}\n'
+[2025-12-24 05:24:52] Error streaming video loop: <HttpError 404 when requesting https://www.googleapis.com/drive/v3/files/1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E?alt=media returned "File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.". Details: "[{'message': 'File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+[2025-12-24 05:24:52] Drive Stream HttpError: b'{\n  "error": {\n    "code": 404,\n    "message": "File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.",\n    "errors": [\n      {\n        "message": "File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.",\n        "domain": "global",\n        "reason": "notFound",\n        "location": "fileId",\n        "locationType": "parameter"\n      }\n    ]\n  }\n}\n'
+[2025-12-24 05:24:52] Error streaming video loop: <HttpError 404 when requesting https://www.googleapis.com/drive/v3/files/1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E?alt=media returned "File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.". Details: "[{'message': 'File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+[2025-12-24 05:24:53] Drive Stream HttpError: b'{\n  "error": {\n    "code": 404,\n    "message": "File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.",\n    "errors": [\n      {\n        "message": "File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.",\n        "domain": "global",\n        "reason": "notFound",\n        "location": "fileId",\n        "locationType": "parameter"\n      }\n    ]\n  }\n}\n'
+[2025-12-24 05:24:53] Error streaming video loop: <HttpError 404 when requesting https://www.googleapis.com/drive/v3/files/1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E?alt=media returned "File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.". Details: "[{'message': 'File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+[2025-12-24 05:24:54] Drive Stream HttpError: b'{\n  "error": {\n    "code": 404,\n    "message": "File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.",\n    "errors": [\n      {\n        "message": "File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.",\n        "domain": "global",\n        "reason": "notFound",\n        "location": "fileId",\n        "locationType": "parameter"\n      }\n    ]\n  }\n}\n'
+[2025-12-24 05:24:54] Error streaming video loop: <HttpError 404 when requesting https://www.googleapis.com/drive/v3/files/1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E?alt=media returned "File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.". Details: "[{'message': 'File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+[2025-12-24 05:24:54] Drive Stream HttpError: b'{\n  "error": {\n    "code": 404,\n    "message": "File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.",\n    "errors": [\n      {\n        "message": "File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.",\n        "domain": "global",\n        "reason": "notFound",\n        "location": "fileId",\n        "locationType": "parameter"\n      }\n    ]\n  }\n}\n'
+[2025-12-24 05:24:54] Error streaming video loop: <HttpError 404 when requesting https://www.googleapis.com/drive/v3/files/1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E?alt=media returned "File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.". Details: "[{'message': 'File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+[2025-12-24 05:24:55] Drive Stream HttpError: b'{\n  "error": {\n    "code": 404,\n    "message": "File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.",\n    "errors": [\n      {\n        "message": "File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.",\n        "domain": "global",\n        "reason": "notFound",\n        "location": "fileId",\n        "locationType": "parameter"\n      }\n    ]\n  }\n}\n'
+[2025-12-24 05:24:55] Error streaming video loop: <HttpError 404 when requesting https://www.googleapis.com/drive/v3/files/1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E?alt=media returned "File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.". Details: "[{'message': 'File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+[2025-12-24 05:24:55] Drive Stream HttpError: b'{\n  "error": {\n    "code": 404,\n    "message": "File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.",\n    "errors": [\n      {\n        "message": "File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.",\n        "domain": "global",\n        "reason": "notFound",\n        "location": "fileId",\n        "locationType": "parameter"\n      }\n    ]\n  }\n}\n'
+[2025-12-24 05:24:55] Error streaming video loop: <HttpError 404 when requesting https://www.googleapis.com/drive/v3/files/1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E?alt=media returned "File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.". Details: "[{'message': 'File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+[2025-12-24 05:24:56] Drive Stream HttpError: b'{\n  "error": {\n    "code": 404,\n    "message": "File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.",\n    "errors": [\n      {\n        "message": "File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.",\n        "domain": "global",\n        "reason": "notFound",\n        "location": "fileId",\n        "locationType": "parameter"\n      }\n    ]\n  }\n}\n'
+[2025-12-24 05:24:56] Error streaming video loop: <HttpError 404 when requesting https://www.googleapis.com/drive/v3/files/1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E?alt=media returned "File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.". Details: "[{'message': 'File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+[2025-12-24 05:24:57] Drive Stream HttpError: b'{\n  "error": {\n    "code": 404,\n    "message": "File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.",\n    "errors": [\n      {\n        "message": "File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.",\n        "domain": "global",\n        "reason": "notFound",\n        "location": "fileId",\n        "locationType": "parameter"\n      }\n    ]\n  }\n}\n'
+[2025-12-24 05:24:57] Error streaming video loop: <HttpError 404 when requesting https://www.googleapis.com/drive/v3/files/1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E?alt=media returned "File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.". Details: "[{'message': 'File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+[2025-12-24 05:24:57] [NOTIFY] ⚠ Upload Failed
+[2025-12-24 05:24:58] Drive Stream HttpError: b'{\n  "error": {\n    "code": 404,\n    "message": "File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.",\n    "errors": [\n      {\n        "message": "File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.",\n        "domain": "global",\n        "reason": "notFound",\n        "location": "fileId",\n        "locationType": "parameter"\n      }\n    ]\n  }\n}\n'
+[2025-12-24 05:24:58] Error streaming video loop: <HttpError 404 when requesting https://www.googleapis.com/drive/v3/files/1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E?alt=media returned "File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.". Details: "[{'message': 'File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+[2025-12-24 05:24:59] Drive Stream HttpError: b'{\n  "error": {\n    "code": 404,\n    "message": "File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.",\n    "errors": [\n      {\n        "message": "File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.",\n        "domain": "global",\n        "reason": "notFound",\n        "location": "fileId",\n        "locationType": "parameter"\n      }\n    ]\n  }\n}\n'
+[2025-12-24 05:24:59] Error streaming video loop: <HttpError 404 when requesting https://www.googleapis.com/drive/v3/files/1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E?alt=media returned "File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.". Details: "[{'message': 'File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+[2025-12-24 05:24:59] Drive Stream HttpError: b'{\n  "error": {\n    "code": 404,\n    "message": "File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.",\n    "errors": [\n      {\n        "message": "File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.",\n        "domain": "global",\n        "reason": "notFound",\n        "location": "fileId",\n        "locationType": "parameter"\n      }\n    ]\n  }\n}\n'
+[2025-12-24 05:24:59] Error streaming video loop: <HttpError 404 when requesting https://www.googleapis.com/drive/v3/files/1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E?alt=media returned "File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.". Details: "[{'message': 'File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+[2025-12-24 05:25:00] Drive Stream HttpError: b'{\n  "error": {\n    "code": 404,\n    "message": "File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.",\n    "errors": [\n      {\n        "message": "File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.",\n        "domain": "global",\n        "reason": "notFound",\n        "location": "fileId",\n        "locationType": "parameter"\n      }\n    ]\n  }\n}\n'
+[2025-12-24 05:25:00] Error streaming video loop: <HttpError 404 when requesting https://www.googleapis.com/drive/v3/files/1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E?alt=media returned "File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.". Details: "[{'message': 'File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+[2025-12-24 05:25:01] Drive Stream HttpError: b'{\n  "error": {\n    "code": 404,\n    "message": "File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.",\n    "errors": [\n      {\n        "message": "File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.",\n        "domain": "global",\n        "reason": "notFound",\n        "location": "fileId",\n        "locationType": "parameter"\n      }\n    ]\n  }\n}\n'
+[2025-12-24 05:25:01] Error streaming video loop: <HttpError 404 when requesting https://www.googleapis.com/drive/v3/files/1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E?alt=media returned "File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.". Details: "[{'message': 'File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+[2025-12-24 05:25:01] Drive Stream HttpError: b'{\n  "error": {\n    "code": 404,\n    "message": "File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.",\n    "errors": [\n      {\n        "message": "File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.",\n        "domain": "global",\n        "reason": "notFound",\n        "location": "fileId",\n        "locationType": "parameter"\n      }\n    ]\n  }\n}\n'
+[2025-12-24 05:25:01] Error streaming video loop: <HttpError 404 when requesting https://www.googleapis.com/drive/v3/files/1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E?alt=media returned "File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.". Details: "[{'message': 'File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+[2025-12-24 05:25:02] Drive Stream HttpError: b'{\n  "error": {\n    "code": 404,\n    "message": "File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.",\n    "errors": [\n      {\n        "message": "File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.",\n        "domain": "global",\n        "reason": "notFound",\n        "location": "fileId",\n        "locationType": "parameter"\n      }\n    ]\n  }\n}\n'
+[2025-12-24 05:25:02] Error streaming video loop: <HttpError 404 when requesting https://www.googleapis.com/drive/v3/files/1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E?alt=media returned "File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.". Details: "[{'message': 'File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+[2025-12-24 05:25:02] Drive Stream HttpError: b'{\n  "error": {\n    "code": 404,\n    "message": "File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.",\n    "errors": [\n      {\n        "message": "File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.",\n        "domain": "global",\n        "reason": "notFound",\n        "location": "fileId",\n        "locationType": "parameter"\n      }\n    ]\n  }\n}\n'
+[2025-12-24 05:25:02] Error streaming video loop: <HttpError 404 when requesting https://www.googleapis.com/drive/v3/files/1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E?alt=media returned "File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.". Details: "[{'message': 'File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+[2025-12-24 05:25:03] Drive Stream HttpError: b'{\n  "error": {\n    "code": 404,\n    "message": "File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.",\n    "errors": [\n      {\n        "message": "File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.",\n        "domain": "global",\n        "reason": "notFound",\n        "location": "fileId",\n        "locationType": "parameter"\n      }\n    ]\n  }\n}\n'
+[2025-12-24 05:25:03] Error streaming video loop: <HttpError 404 when requesting https://www.googleapis.com/drive/v3/files/1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E?alt=media returned "File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.". Details: "[{'message': 'File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+[2025-12-24 05:25:04] Drive Stream HttpError: b'{\n  "error": {\n    "code": 404,\n    "message": "File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.",\n    "errors": [\n      {\n        "message": "File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.",\n        "domain": "global",\n        "reason": "notFound",\n        "location": "fileId",\n        "locationType": "parameter"\n      }\n    ]\n  }\n}\n'
+[2025-12-24 05:25:04] Error streaming video loop: <HttpError 404 when requesting https://www.googleapis.com/drive/v3/files/1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E?alt=media returned "File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.". Details: "[{'message': 'File not found: 1P_elYnbwgkjPPlVHPZMb-_bYKyMEOU5E.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+[2025-12-24 05:29:31] Starting Python Server on port 5000...
+[2025-12-24 05:29:32] Google Drive authentication successful.
+[2025-12-24 05:30:15] [NOTIFY] 🔴 GigaClipper: Buffer Started
+[2025-12-24 05:30:46] [NOTIFY] 💾 Saving Clip...
+[2025-12-24 05:30:53] [NOTIFY] ✅ Clip Saved: 60s
+[2025-12-24 05:32:02] Thumbnail error: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-24 05:32:02] Thumbnail error: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-24 05:32:11] Drive Stream Chunk Error: 'NoneType' object has no attribute 'close'
+[2025-12-24 05:32:11] Error streaming video loop: 'NoneType' object has no attribute 'close'
+[2025-12-24 05:32:40] Error listing videos: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-24 05:32:43] Error listing videos: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-24 05:32:50] Error listing videos: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-24 05:34:32] Thumbnail error: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-24 05:34:32] Thumbnail error: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-24 05:34:42] Drive Stream Chunk Error: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-24 05:34:42] Error streaming video loop: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-24 05:35:37] Error listing videos: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-24 05:35:40] Error listing videos: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-24 05:36:06] Starting Python Server on port 5000...
+[2025-12-24 05:36:07] Google Drive authentication successful.
+[2025-12-24 05:36:40] Thumbnail error: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-24 05:36:40] Thumbnail error: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-24 05:39:40] Starting Python Server on port 5000...
+[2025-12-24 05:39:40] Google Drive authentication successful.
+[2025-12-24 05:39:43] Thumbnail error: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-24 05:39:43] Thumbnail error: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-24 05:39:47] Error in stream_video_range: name 'requests' is not defined
+[2025-12-24 05:40:25] Error in stream_video_range: name 'requests' is not defined
+[2025-12-24 05:40:47] [NOTIFY] ☁ Uploaded: Clip_2025-12-24_05-30-46.mp4
+[2025-12-24 05:41:01] Error in stream_video_range: name 'requests' is not defined
+[2025-12-24 05:42:17] Starting Python Server on port 5000...
+[2025-12-24 05:42:18] Google Drive authentication successful.
+[2025-12-24 05:42:27] Thumbnail error: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-24 05:42:27] Thumbnail error: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-24 05:42:40] Thumbnail error: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-24 05:42:40] Thumbnail error: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-24 05:43:06] Thumbnail error: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-24 05:43:06] Thumbnail error: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-24 05:43:09] Thumbnail error: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-24 05:43:45] [NOTIFY] 🔴 GigaClipper: Buffer Started
+[2025-12-24 05:44:16] [NOTIFY] 💾 Saving Clip...
+[2025-12-24 05:44:23] [NOTIFY] ✅ Clip Saved: 60s
+[2025-12-24 05:45:42] [NOTIFY] ✅ Trimmed clip uploaded to Drive/Trims!
+[2025-12-24 05:47:18] [NOTIFY] 💾 Saving Clip...
+[2025-12-24 05:47:25] [NOTIFY] ✅ Clip Saved: 30s
+[2025-12-24 05:47:25] Error listing videos (Attempt 1/3): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-24 05:48:31] [NOTIFY] ☁ Uploaded: Clip_2025-12-24_05-47-19.mp4
+[2025-12-24 05:48:32] Thumbnail error: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-24 05:48:32] Thumbnail error: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-24 05:48:41] Thumbnail error: The read operation timed out
+[2025-12-24 05:48:50] Thumbnail error: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-24 05:48:50] Thumbnail error: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-24 05:51:34] [NOTIFY] 🔴 GigaClipper: Buffer Started
+[2025-12-24 05:51:34] Starting Python Server on port 5000...
+[2025-12-24 05:51:34] Google Drive authentication successful.
+[2025-12-24 05:51:46] Thumbnail error (attempt 0): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-24 05:51:46] Thumbnail error (attempt 0): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-24 05:51:47] Thumbnail error (attempt 1): 'NoneType' object has no attribute 'close'
+[2025-12-24 05:51:48] Thumbnail error (attempt 2): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-24 05:51:48] Thumbnail error (attempt 2): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-24 05:52:12] Thumbnail error (attempt 0): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-24 05:52:12] Thumbnail error (attempt 0): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-24 05:52:12] Error listing videos (Attempt 1/3): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-24 05:52:13] Thumbnail error (attempt 1): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-24 05:52:13] Thumbnail error (attempt 2): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-24 06:09:30] [NOTIFY] 🔴 GigaClipper: Buffer Started
+[2025-12-24 06:09:30] Starting Python Server on port 5000...
+[2025-12-24 06:09:30] Google Drive authentication successful.
+[2025-12-25 15:14:02] [NOTIFY] 🔴 GigaClipper: Buffer Started
+[2025-12-25 15:14:02] Starting Python Server on port 5000...
+[2025-12-25 15:14:03] Google Drive authentication successful.
+[2025-12-25 15:14:26] Thumbnail error (attempt 0): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 15:14:26] Thumbnail error (attempt 0): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 15:14:27] Thumbnail error (attempt 2): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 15:14:27] Thumbnail error (attempt 1): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 15:15:39] Thumbnail error (attempt 0): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 15:16:09] Thumbnail error (attempt 1): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 15:16:09] Error listing videos (Attempt 1/3): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 15:16:09] Thumbnail error (attempt 0): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 15:16:10] Error listing videos (Attempt 2/3): [SSL] internal error (_ssl.c:2657)
+[2025-12-25 15:16:10] Thumbnail error (attempt 1): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 15:19:59] [NOTIFY] 🔴 GigaClipper: Buffer Started
+[2025-12-25 15:19:59] Starting Python Server on port 5000...
+[2025-12-25 15:19:59] Google Drive authentication successful.
+[2025-12-25 15:25:28] [NOTIFY] 💾 Saving Clip...
+[2025-12-25 15:25:38] [NOTIFY] ✅ Clip Saved: 30s
+[2025-12-25 15:26:31] Thumbnail error (attempt 0): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 15:26:31] Thumbnail error (attempt 0): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 15:26:54] Thumbnail error (attempt 1): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 15:27:32] Thumbnail error (attempt 1): The read operation timed out
+[2025-12-25 15:28:33] [NOTIFY] 🔴 GigaClipper: Buffer Started
+[2025-12-25 15:28:33] Starting Python Server on port 5000...
+[2025-12-25 15:28:33] Google Drive authentication successful.
+[2025-12-25 15:32:03] [NOTIFY] 🔴 GigaClipper: Buffer Started
+[2025-12-25 15:32:03] Starting Python Server on port 5000...
+[2025-12-25 15:32:04] Google Drive authentication successful.
+[2025-12-25 15:34:27] [NOTIFY] 🔴 GigaClipper: Buffer Started
+[2025-12-25 15:34:27] Starting Python Server on port 5000...
+[2025-12-25 15:34:28] Google Drive authentication successful.
+[2025-12-25 15:35:06] [NOTIFY] 💾 Saving Clip...
+[2025-12-25 15:35:11] Thumbnail error (attempt 0): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 15:35:11] Thumbnail error (attempt 0): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 15:35:14] [NOTIFY] ✅ Clip Saved: 30s
+[2025-12-25 15:35:14] Thumbnail error (attempt 1): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 15:36:01] Thumbnail error (attempt 0): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 15:36:01] Thumbnail error (attempt 0): [PROV: CIPHER_OPERATION_FAILED] cipher operation failed (_ssl.c:2657)
+[2025-12-25 15:36:02] Thumbnail error (attempt 1): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 15:36:21] [NOTIFY] ☁ Uploaded: Clip_2025-12-25_15-35-06.mp4
+[2025-12-25 15:36:32] Thumbnail error (attempt 0): [PROV: CIPHER_OPERATION_FAILED] cipher operation failed (_ssl.c:2657)
+[2025-12-25 15:36:32] Thumbnail error (attempt 0): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 15:36:32] Thumbnail error (attempt 0): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 15:36:35] Thumbnail error (attempt 1): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 15:36:39] Thumbnail error (attempt 0): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 15:36:39] Thumbnail error (attempt 1): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 15:36:40] Thumbnail error (attempt 2): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 15:36:43] Thumbnail error (attempt 1): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 15:37:26] Thumbnail error (attempt 0): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 15:37:27] Thumbnail error (attempt 1): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 15:37:27] Thumbnail error (attempt 1): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 15:37:32] Thumbnail error (attempt 1): The read operation timed out
+[2025-12-25 15:37:46] Thumbnail error (attempt 0): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 15:37:47] Thumbnail error (attempt 1): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 15:37:57] Thumbnail error (attempt 2): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 15:37:57] Thumbnail error (attempt 0): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 15:38:28] Thumbnail error (attempt 2): The read operation timed out
+[2025-12-25 15:38:36] [NOTIFY] 🔴 GigaClipper: Buffer Started
+[2025-12-25 15:38:36] Starting Python Server on port 5000...
+[2025-12-25 15:38:36] Google Drive authentication successful.
+[2025-12-25 15:38:42] Thumbnail error (attempt 0): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 15:38:42] Thumbnail error (attempt 0): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 15:38:42] Thumbnail error (attempt 0): [SSL] internal error (_ssl.c:2657)
+[2025-12-25 15:38:42] Thumbnail error (attempt 0): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 15:38:43] Thumbnail error (attempt 1): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 15:38:43] Thumbnail error (attempt 1): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 15:38:43] Thumbnail error (attempt 1): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 15:38:43] Thumbnail error (attempt 1): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 15:40:03] [NOTIFY] 🔴 GigaClipper: Buffer Started
+[2025-12-25 15:40:03] Starting Python Server on port 5000...
+[2025-12-25 15:40:04] Google Drive authentication successful.
+[2025-12-25 15:40:07] [NOTIFY] 💾 Saving Clip...
+[2025-12-25 15:40:08] [NOTIFY] ✅ Clip Saved: 30s
+[2025-12-25 15:40:19] Thumbnail error (attempt 0): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 15:40:19] Thumbnail error (attempt 0): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 15:40:19] Thumbnail error (attempt 0): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 15:40:19] Thumbnail error (attempt 0): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 15:40:20] Thumbnail error (attempt 1): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 15:40:20] Thumbnail error (attempt 1): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 15:40:20] Thumbnail error (attempt 1): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 15:40:20] Thumbnail error (attempt 1): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 15:40:29] Thumbnail error (attempt 1): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 15:41:20] Thumbnail error (attempt 2): The read operation timed out
+[2025-12-25 15:41:20] Thumbnail error (attempt 2): The read operation timed out
+[2025-12-25 15:41:20] Thumbnail error (attempt 2): The read operation timed out
+[2025-12-25 15:41:29] Error listing videos (Attempt 1/3): The read operation timed out
+[2025-12-25 15:41:31] Thumbnail error (attempt 0): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 15:41:32] Thumbnail error (attempt 0): [SSL: DECRYPTION_FAILED_OR_BAD_RECORD_MAC] decryption failed or bad record mac (_ssl.c:2657)
+[2025-12-25 15:41:32] Thumbnail error (attempt 2): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 15:41:32] Thumbnail error (attempt 1): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 15:41:32] Thumbnail error (attempt 2): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 15:42:09] [NOTIFY] 🔴 GigaClipper: Buffer Started
+[2025-12-25 15:42:09] Starting Python Server on port 5000...
+[2025-12-25 15:42:10] Google Drive authentication successful.
+[2025-12-25 15:43:03] Thumbnail error (attempt 0): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 15:43:03] Thumbnail error (attempt 1): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 15:43:21] Thumbnail error (attempt 0): [SSL] internal error (_ssl.c:2657)
+[2025-12-25 15:43:22] Thumbnail error (attempt 1): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 15:43:22] Thumbnail error (attempt 1): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 15:43:22] Thumbnail error (attempt 2): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 15:43:23] Thumbnail error (attempt 2): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 15:44:02] Thumbnail error (attempt 0): The read operation timed out
+[2025-12-25 15:44:02] Thumbnail error (attempt 0): The read operation timed out
+[2025-12-25 15:44:02] Thumbnail error (attempt 0): The read operation timed out
+[2025-12-25 15:44:03] Thumbnail error (attempt 1): The read operation timed out
+[2025-12-25 15:44:04] Thumbnail error (attempt 2): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 15:44:04] Thumbnail error (attempt 2): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 15:45:02] [NOTIFY] 🔴 GigaClipper: Buffer Started
+[2025-12-25 15:45:02] Starting Python Server on port 5000...
+[2025-12-25 15:45:02] Google Drive authentication successful.
+[2025-12-25 15:48:14] Thumbnail error (attempt 0): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 15:48:14] Error getting video size for 1wCXaYtqTmV3HtIWcfrGPC5PaDProajh4: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 15:48:15] Drive Auth Critical Error: [SSL: DECRYPTION_FAILED_OR_BAD_RECORD_MAC] decryption failed or bad record mac (_ssl.c:2657)
+[2025-12-25 15:48:16] Error getting video size for 1uKlKXbbDOwAcMiMRFiCwK7jpx4aiUhTd: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 15:48:16] Google Drive authentication successful.
+[2025-12-25 15:48:17] Thumbnail error (attempt 0): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 15:49:13] Thumbnail error (attempt 0): The read operation timed out
+[2025-12-25 15:49:13] Thumbnail error (attempt 0): The read operation timed out
+[2025-12-25 15:49:13] Thumbnail error (attempt 0): The read operation timed out
+[2025-12-25 15:49:14] Thumbnail error (attempt 1): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 15:49:14] Thumbnail error (attempt 1): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 15:49:14] Thumbnail error (attempt 1): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 15:50:14] Thumbnail error (attempt 2): The read operation timed out
+[2025-12-25 15:50:14] Thumbnail error (attempt 2): The read operation timed out
+[2025-12-25 15:51:18] [NOTIFY] 🔴 GigaClipper: Buffer Started
+[2025-12-25 15:51:18] Starting Python Server on port 5000...
+[2025-12-25 15:51:19] Google Drive authentication successful.
+[2025-12-25 15:51:29] Thumbnail error (attempt 0): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 15:51:29] Thumbnail error (attempt 0): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 15:51:29] Thumbnail error (attempt 0): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 15:51:29] Thumbnail error (attempt 0): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 15:51:29] Google Drive authentication successful.
+[2025-12-25 15:51:29] Google Drive authentication successful.
+[2025-12-25 15:51:29] Google Drive authentication successful.
+[2025-12-25 15:51:29] Google Drive authentication successful.
+[2025-12-25 15:51:29] Google Drive authentication successful.
+[2025-12-25 15:51:30] Thumbnail error (attempt 1): [SSL: ENCRYPTED_LENGTH_TOO_LONG] encrypted length too long (_ssl.c:2657)
+[2025-12-25 15:51:30] Thumbnail error (attempt 1): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 15:51:30] Thumbnail error (attempt 1): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 15:51:30] Thumbnail error (attempt 1): [SSL] internal error (_ssl.c:2657)
+[2025-12-25 15:52:47] Error getting video size for 1wCXaYtqTmV3HtIWcfrGPC5PaDProajh4: The read operation timed out
+[2025-12-25 15:52:48] Drive Auth Critical Error: [SSL: DECRYPTION_FAILED_OR_BAD_RECORD_MAC] decryption failed or bad record mac (_ssl.c:2657)
+[2025-12-25 15:52:49] [NOTIFY] 💾 Saving Clip...
+[2025-12-25 15:52:51] Thumbnail error (attempt 0): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 15:52:51] Error listing videos (Attempt 1/3): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 15:52:52] Thumbnail error (attempt 0): [SSL: DECRYPTION_FAILED_OR_BAD_RECORD_MAC] decryption failed or bad record mac (_ssl.c:2657)
+[2025-12-25 15:52:52] Drive Auth Critical Error: [SSL: DECRYPTION_FAILED_OR_BAD_RECORD_MAC] decryption failed or bad record mac (_ssl.c:2657)
+[2025-12-25 15:52:52] Error getting video size for 1uKlKXbbDOwAcMiMRFiCwK7jpx4aiUhTd: The read operation timed out
+[2025-12-25 15:52:52] Google Drive authentication successful.
+[2025-12-25 15:52:52] Google Drive authentication successful.
+[2025-12-25 15:52:53] Error listing videos (Attempt 2/3): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 15:52:56] Thumbnail error (attempt 0): The read operation timed out
+[2025-12-25 15:52:57] [NOTIFY] ✅ Clip Saved: 30s
+[2025-12-25 15:52:57] Drive Auth Critical Error: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 15:52:58] Thumbnail error (attempt 0): The read operation timed out
+[2025-12-25 15:52:59] Google Drive authentication successful.
+[2025-12-25 15:52:59] Thumbnail error (attempt 1): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 15:52:59] Error listing videos (Attempt 1/3): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 15:53:01] Thumbnail error (attempt 0): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 15:53:01] Error listing videos (Attempt 1/3): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 15:53:02] Google Drive authentication successful.
+[2025-12-25 15:53:02] Thumbnail error (attempt 1): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 15:53:02] Error listing videos (Attempt 2/3): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 15:53:07] Thumbnail error (attempt 0): The read operation timed out
+[2025-12-25 15:53:07] Google Drive authentication successful.
+[2025-12-25 15:53:09] Error getting video size for 1sDqg-T11HmRb7OCymtgc2_KWem36CEqR: The read operation timed out
+[2025-12-25 15:53:10] Google Drive authentication successful.
+[2025-12-25 15:53:24] Error getting video size for 1NhtzAM78SZ2PHBU4IJosroSN7j68E9sz: The read operation timed out
+[2025-12-25 15:53:24] Google Drive authentication successful.
+[2025-12-25 15:53:34] Error getting video size for 1sDqg-T11HmRb7OCymtgc2_KWem36CEqR: The read operation timed out
+[2025-12-25 15:53:34] Google Drive authentication successful.
+[2025-12-25 15:53:36] Error getting video size for 1sDqg-T11HmRb7OCymtgc2_KWem36CEqR: IncompleteRead(44 bytes read)
+[2025-12-25 15:53:36] Error getting video size for 1sDqg-T11HmRb7OCymtgc2_KWem36CEqR: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 15:53:37] Google Drive authentication successful.
+[2025-12-25 15:53:37] Drive Auth Critical Error: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 15:53:52] Thumbnail error (attempt 1): The read operation timed out
+[2025-12-25 15:55:40] [NOTIFY] 🔴 GigaClipper: Buffer Started
+[2025-12-25 15:55:40] Starting Python Server on port 5000...
+[2025-12-25 15:55:41] Google Drive authentication successful.
+[2025-12-25 15:56:04] Error getting video size for 1NhtzAM78SZ2PHBU4IJosroSN7j68E9sz: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 15:56:04] Error getting video size for 1jLydSuJUXVglPO04DLxS3m01xJXg_lmm: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 15:56:05] Google Drive authentication successful.
+[2025-12-25 15:56:05] Google Drive authentication successful.
+[2025-12-25 15:56:11] Error getting video size for 1ojivMxdu2xql54PzHKfuVYfYi2vAHJ6U: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 15:56:12] Drive Auth Critical Error: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 15:56:12] Error listing videos (Attempt 1/3): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 15:57:58] [NOTIFY] 🔴 GigaClipper: Buffer Started
+[2025-12-25 15:57:58] Starting Python Server on port 5000...
+[2025-12-25 15:57:59] Google Drive authentication successful.
+[2025-12-25 15:59:41] [NOTIFY] 🔴 GigaClipper: Buffer Started
+[2025-12-25 15:59:41] Starting Python Server on port 5000...
+[2025-12-25 15:59:42] Google Drive authentication successful.
+[2025-12-25 16:03:00] [NOTIFY] 🔴 GigaClipper: Buffer Started
+[2025-12-25 16:03:00] Starting Python Server on port 5000...
+[2025-12-25 16:03:01] Google Drive authentication successful.
+[2025-12-25 16:26:49] [NOTIFY] 🔴 GigaClipper: Buffer Started
+[2025-12-25 16:26:49] Starting Python Server on port 5000...
+[2025-12-25 16:26:50] Google Drive authentication successful.
+[2025-12-25 16:29:06] [NOTIFY] 🔴 GigaClipper: Buffer Started
+[2025-12-25 16:29:06] Starting Python Server on port 5000...
+[2025-12-25 16:29:07] Google Drive authentication successful.
+[2025-12-25 17:04:42] [NOTIFY] 🔴 GigaClipper: Buffer Started
+[2025-12-25 17:04:42] Starting Python Server on port 5000...
+[2025-12-25 17:04:42] Google Drive authentication successful.
+[2025-12-25 17:09:51] [NOTIFY] 🔴 GigaClipper: Buffer Started
+[2025-12-25 17:09:51] Starting Python Server on port 5000...
+[2025-12-25 17:09:52] Google Drive authentication successful.
+[2025-12-25 17:11:16] [NOTIFY] 🔴 GigaClipper: Buffer Started
+[2025-12-25 17:11:16] Starting Python Server on port 5000...
+[2025-12-25 17:11:17] Google Drive authentication successful.
+[2025-12-25 17:12:38] [NOTIFY] 🔴 GigaClipper: Buffer Started
+[2025-12-25 17:12:38] Starting Python Server on port 5000...
+[2025-12-25 17:12:39] Google Drive authentication successful.
+[2025-12-25 17:16:11] [NOTIFY] 🔴 GigaClipper: Buffer Started
+[2025-12-25 17:16:11] Starting Python Server on port 5000...
+[2025-12-25 17:22:08] [NOTIFY] 🔴 GigaClipper: Buffer Started
+[2025-12-25 17:22:08] Starting Python Server on port 5000...
+[2025-12-25 17:24:17] [NOTIFY] 🔴 GigaClipper: Buffer Started
+[2025-12-25 17:25:25] [NOTIFY] 🔴 GigaClipper: Buffer Started
+[2025-12-25 17:25:25] Starting Python Server on port 5000...
+[2025-12-25 17:26:05] [NOTIFY] 🔴 GigaClipper: Buffer Started
+[2025-12-25 17:26:05] Starting Python Server on port 5000...
+[2025-12-25 17:30:20] [NOTIFY] 🔴 GigaClipper: Buffer Started
+[2025-12-25 17:30:20] Starting Python Server on port 5000...
+[2025-12-25 17:31:02] [NOTIFY] 🔴 GigaClipper: Buffer Started
+[2025-12-25 17:31:02] Starting Python Server on port 5000...
+[2025-12-25 17:32:43] [NOTIFY] 🔴 GigaClipper: Buffer Started
+[2025-12-25 17:32:43] Starting Python Server on port 5000...
+[2025-12-25 17:33:03] [NOTIFY] GigaClipper: Buffer Stopped
+[2025-12-25 17:36:24] Error getting video size for 1jLydSuJUXVglPO04DLxS3m01xJXg_lmm: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 17:36:24] Error getting video size for 1NhtzAM78SZ2PHBU4IJosroSN7j68E9sz: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 17:36:24] Error getting video size for 1uKlKXbbDOwAcMiMRFiCwK7jpx4aiUhTd: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 17:36:27] Error getting video size for 1sDqg-T11HmRb7OCymtgc2_KWem36CEqR: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 17:36:27] Error getting video size for 1uKlKXbbDOwAcMiMRFiCwK7jpx4aiUhTd: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 17:36:27] Error getting video size for 1NhtzAM78SZ2PHBU4IJosroSN7j68E9sz: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 17:41:42] Error getting video size for 1NhtzAM78SZ2PHBU4IJosroSN7j68E9sz: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 17:41:42] Error getting video size for 1uKlKXbbDOwAcMiMRFiCwK7jpx4aiUhTd: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 17:42:09] [NOTIFY] ✅ Trimmed clip uploaded to Drive/Trims!
+[2025-12-25 17:44:31] [NOTIFY] 🔴 GigaClipper: Buffer Started
+[2025-12-25 17:44:31] Starting Python Server on port 5000...
+[2025-12-25 17:45:22] Error getting video size for 1NhtzAM78SZ2PHBU4IJosroSN7j68E9sz: [PROV: CIPHER_OPERATION_FAILED] cipher operation failed (_ssl.c:2657)
+[2025-12-25 17:45:22] Error getting video size for 1uKlKXbbDOwAcMiMRFiCwK7jpx4aiUhTd: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 17:45:50] [NOTIFY] ⚠ Upload Failed
+[2025-12-25 17:46:51] [NOTIFY] ⚠ Upload Failed
+[2025-12-25 17:46:51] Error listing videos (Attempt 1/3): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 17:46:54] Error getting video size for 1NhtzAM78SZ2PHBU4IJosroSN7j68E9sz: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 17:46:54] Error getting video size for 1jLydSuJUXVglPO04DLxS3m01xJXg_lmm: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 17:46:57] Error getting video size for 1uKlKXbbDOwAcMiMRFiCwK7jpx4aiUhTd: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 17:46:57] Error getting video size for 1NhtzAM78SZ2PHBU4IJosroSN7j68E9sz: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 17:53:03] [NOTIFY] 🔴 GigaClipper: Buffer Started
+[2025-12-25 17:53:03] Starting Python Server on port 5000...
+[2025-12-25 17:53:56] [NOTIFY] 🔴 GigaClipper: Buffer Started
+[2025-12-25 17:53:56] Starting Python Server on port 5000...
+[2025-12-25 17:54:34] Error getting video size for 1sDqg-T11HmRb7OCymtgc2_KWem36CEqR: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 17:54:34] Error getting video size for 1uKlKXbbDOwAcMiMRFiCwK7jpx4aiUhTd: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 17:54:34] Error getting video size for 1uKlKXbbDOwAcMiMRFiCwK7jpx4aiUhTd: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 17:54:36] Error getting video size for 1uKlKXbbDOwAcMiMRFiCwK7jpx4aiUhTd: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 17:54:36] Error getting video size for 1uKlKXbbDOwAcMiMRFiCwK7jpx4aiUhTd: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 17:54:38] Error getting video size for 1NhtzAM78SZ2PHBU4IJosroSN7j68E9sz: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 17:54:38] Error getting video size for 1uKlKXbbDOwAcMiMRFiCwK7jpx4aiUhTd: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 17:55:26] [NOTIFY] ⚠ Upload Failed
+t 1/3): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 17:55:29] Error getting video size for 1uKlKXbbDOwAcMiMRFiCwK7jpx4aiUhTd: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 17:55:29] Error getting video size for 1NhtzAM78SZ2PHBU4IJosroSN7j68E9sz: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 17:55:33] Error getting video size for 1uKlKXbbDOwAcMiMRFiCwK7jpx4aiUhTd: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 17:55:33] Error getting video size for 1NhtzAM78SZ2PHBU4IJosroSN7j68E9sz: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 17:55:38] Error getting video size for 1jLydSuJUXVglPO04DLxS3m01xJXg_lmm: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 17:55:38] Error listing videos (Attempt 1/3): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 17:58:14] Silent token load failed: Arguments http and credentials are mutually exclusive
+[2025-12-25 17:58:14] [NOTIFY] 🔴 GigaClipper: Buffer Started
+[2025-12-25 17:58:14] Starting Python Server on port 5000...
+[2025-12-25 17:58:48] Silent token load failed: Arguments http and credentials are mutually exclusive
+[2025-12-25 17:58:48] [NOTIFY] 🔴 GigaClipper: Buffer Started
+[2025-12-25 17:58:48] Starting Python Server on port 5000...
+[2025-12-25 18:01:04] [NOTIFY] 🔴 GigaClipper: Buffer Started
+[2025-12-25 18:01:04] Starting Python Server on port 5000...
+[2025-12-25 18:02:05] [NOTIFY] 🔴 GigaClipper: Buffer Started
+[2025-12-25 18:02:05] Starting Python Server on port 5000...
+[2025-12-25 18:02:22] Error getting video size for 1jLydSuJUXVglPO04DLxS3m01xJXg_lmm: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:02:22] Error getting video size for 1sDqg-T11HmRb7OCymtgc2_KWem36CEqR: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:02:27] Error getting video size for 1NhtzAM78SZ2PHBU4IJosroSN7j68E9sz: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:02:27] Error getting video size for 1NhtzAM78SZ2PHBU4IJosroSN7j68E9sz: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:02:39] [NOTIFY] ⚠ Upload Failed
+[2025-12-25 18:04:29] [NOTIFY] ⚠ Upload Failed
+[2025-12-25 18:04:39] [NOTIFY] ☁ Uploaded: Clip_2025-12-24_04-15-11.mp4
+[2025-12-25 18:04:48] [NOTIFY] ☁ Uploaded: Clip_2025-12-24_03-56-19.mp4
+[2025-12-25 18:05:02] [NOTIFY] 💾 Saving Clip...
+[2025-12-25 18:05:09] [NOTIFY] ✅ Clip Saved: 30s
+[2025-12-25 18:05:13] Thumbnail error (attempt 0): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:05:13] Thumbnail error (attempt 0): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:05:13] Thumbnail error (attempt 0): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:05:14] Thumbnail error (attempt 1): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:05:14] Thumbnail error (attempt 1): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:05:14] Error getting video size for 1ghc1_GunMBdF8BbnAf7TvgeeV5eDdSz0: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:05:14] Thumbnail error (attempt 1): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:05:14] Error getting video size for 1sRP4QMRiSTpvaU-Nj43CGpMoW-ysnEsi: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:05:18] Error getting video size for 1uKlKXbbDOwAcMiMRFiCwK7jpx4aiUhTd: [SSL] internal error (_ssl.c:2657)
+[2025-12-25 18:05:18] Thumbnail error (attempt 0): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:05:18] Error getting video size for 1uKlKXbbDOwAcMiMRFiCwK7jpx4aiUhTd: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:05:18] Error getting video size for 1sDqg-T11HmRb7OCymtgc2_KWem36CEqR: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:05:19] Error getting video size for 1ghc1_GunMBdF8BbnAf7TvgeeV5eDdSz0: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:05:19] Thumbnail error (attempt 1): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:05:23] Thumbnail error (attempt 0): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:05:23] Error getting video size for 1ghc1_GunMBdF8BbnAf7TvgeeV5eDdSz0: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:05:24] Thumbnail error (attempt 1): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:05:24] Thumbnail error (attempt 1): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:05:24] Error getting video size for 1NhtzAM78SZ2PHBU4IJosroSN7j68E9sz: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:05:27] Error getting video size for 1_c7NQryC8Wzm05Pb2gRgh2LztEKQtm-1: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:05:27] Thumbnail error (attempt 0): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:05:27] Thumbnail error (attempt 0): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:06:01] Error listing videos (Attempt 1/3): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:06:01] Thumbnail error (attempt 1): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:06:11] Error listing videos (Attempt 1/3): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:06:11] Error listing videos (Attempt 2/3): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:06:34] Thumbnail error (attempt 0): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:06:34] Error getting video size for 1xzd0o3qJy_xLu2SJgY7M7hADi5Exqwo8: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:06:35] Thumbnail error (attempt 0): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:06:35] Thumbnail error (attempt 1): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:06:35] Thumbnail error (attempt 1): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:09:05] [NOTIFY] 🔴 GigaClipper: Buffer Started
+[2025-12-25 18:09:05] Starting Python Server on port 5000...
+[2025-12-25 18:09:41] [NOTIFY] 🔴 GigaClipper: Buffer Started
+[2025-12-25 18:09:41] Starting Python Server on port 5000...
+[2025-12-25 18:09:52] Thumbnail error (attempt 0): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:09:52] Thumbnail error (attempt 0): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:09:52] Thumbnail error (attempt 0): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:09:53] Thumbnail error (attempt 1): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:09:53] Thumbnail error (attempt 1): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:09:53] Error getting video size for 1sRP4QMRiSTpvaU-Nj43CGpMoW-ysnEsi: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:09:55] Error getting video size for 1sRP4QMRiSTpvaU-Nj43CGpMoW-ysnEsi: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:09:55] Thumbnail error (attempt 1): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:10:11] [NOTIFY] 🔴 GigaClipper: Buffer Started
+[2025-12-25 18:10:11] Starting Python Server on port 5000...
+[2025-12-25 18:10:29] Thumbnail error (attempt 0): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:10:29] Thumbnail error (attempt 0): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:10:29] Thumbnail error (attempt 0): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:10:31] Error getting video size for 1sRP4QMRiSTpvaU-Nj43CGpMoW-ysnEsi: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:10:31] Thumbnail error (attempt 1): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:10:34] Thumbnail error (attempt 0): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:10:34] Error getting video size for 1uKlKXbbDOwAcMiMRFiCwK7jpx4aiUhTd: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:10:34] Error getting video size for 1_c7NQryC8Wzm05Pb2gRgh2LztEKQtm-1: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:10:34] Error getting video size for 1sRP4QMRiSTpvaU-Nj43CGpMoW-ysnEsi: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:10:34] Error getting video size for 1ghc1_GunMBdF8BbnAf7TvgeeV5eDdSz0: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:10:34] Thumbnail error (attempt 1): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:10:35] Thumbnail error (attempt 1): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:10:35] Error getting video size for 1uKlKXbbDOwAcMiMRFiCwK7jpx4aiUhTd: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:10:51] Error getting video size for 1ghc1_GunMBdF8BbnAf7TvgeeV5eDdSz0: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:10:51] Thumbnail error (attempt 0): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:13:11] [NOTIFY] 🔴 GigaClipper: Buffer Started
+[2025-12-25 18:13:11] Starting Python Server on port 5000...
+[2025-12-25 18:13:12] Google Drive authentication successful.
+[2025-12-25 18:13:15] Thumbnail error (attempt 0): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:13:15] Thumbnail error (attempt 0): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:13:15] Thumbnail error (attempt 0): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:13:16] Google Drive authentication successful.
+[2025-12-25 18:13:16] Google Drive authentication successful.
+[2025-12-25 18:13:16] Google Drive authentication successful.
+[2025-12-25 18:13:17] Thumbnail error (attempt 1): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:13:17] Thumbnail error (attempt 1): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:13:17] Thumbnail error (attempt 1): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:17:46] [NOTIFY] 🔴 GigaClipper: Buffer Started
+[2025-12-25 18:17:46] Starting Python Server on port 5000...
+[2025-12-25 18:17:47] Google Drive authentication successful.
+[2025-12-25 18:20:02] [NOTIFY] 🔴 GigaClipper: Buffer Started
+[2025-12-25 18:20:02] Starting Python Server on port 5000...
+[2025-12-25 18:20:03] Google Drive authentication successful.
+[2025-12-25 18:21:08] [NOTIFY] 🔴 GigaClipper: Buffer Started
+[2025-12-25 18:21:08] Starting Python Server on port 5000...
+[2025-12-25 18:21:09] Google Drive authentication successful.
+[2025-12-25 18:21:18] Google Drive authentication successful.
+[2025-12-25 18:21:19] Thumbnail error (attempt 0): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:21:19] Thumbnail error (attempt 0): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:21:20] Google Drive authentication successful.
+[2025-12-25 18:21:20] Google Drive authentication successful.
+[2025-12-25 18:21:20] Thumbnail error (attempt 1): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:21:20] Thumbnail error (attempt 1): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:22:37] Thumbnail error (attempt 0): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:22:37] Error getting video size for 1_c7NQryC8Wzm05Pb2gRgh2LztEKQtm-1: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:22:37] Thumbnail error (attempt 0): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:22:37] Google Drive authentication successful.
+[2025-12-25 18:22:37] Error getting video size for 1ghc1_GunMBdF8BbnAf7TvgeeV5eDdSz0: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:22:38] Google Drive authentication successful.
+[2025-12-25 18:22:38] Google Drive authentication successful.
+[2025-12-25 18:22:38] Google Drive authentication successful.
+[2025-12-25 18:22:58] Thumbnail error (attempt 1): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:22:58] Error getting video size for 1NhtzAM78SZ2PHBU4IJosroSN7j68E9sz: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:22:59] Google Drive authentication successful.
+[2025-12-25 18:23:15] [NOTIFY] 🔴 GigaClipper: Buffer Started
+[2025-12-25 18:23:15] Starting Python Server on port 5000...
+[2025-12-25 18:23:16] Google Drive authentication successful.
+[2025-12-25 18:23:20] Thumbnail error (attempt 0): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:23:20] Thumbnail error (attempt 1): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:23:21] Google Drive authentication successful.
+[2025-12-25 18:23:21] Thumbnail error (attempt 0): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:23:21] Error getting video size for 1NhtzAM78SZ2PHBU4IJosroSN7j68E9sz: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:23:21] Error getting video size for 1ghc1_GunMBdF8BbnAf7TvgeeV5eDdSz0: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:23:22] Error getting video size for 1uKlKXbbDOwAcMiMRFiCwK7jpx4aiUhTd: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:23:22] Thumbnail error (attempt 1): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:23:22] Google Drive authentication successful.
+[2025-12-25 18:23:22] Google Drive authentication successful.
+[2025-12-25 18:23:22] Google Drive authentication successful.
+[2025-12-25 18:23:23] Thumbnail error (attempt 1): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:23:23] Google Drive authentication successful.
+[2025-12-25 18:23:24] Error getting video size for 1uKlKXbbDOwAcMiMRFiCwK7jpx4aiUhTd: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:23:24] Thumbnail error (attempt 0): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:23:24] Error getting video size for 1_c7NQryC8Wzm05Pb2gRgh2LztEKQtm-1: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:23:25] Google Drive authentication successful.
+[2025-12-25 18:23:25] Google Drive authentication successful.
+[2025-12-25 18:23:25] Google Drive authentication successful.
+[2025-12-25 18:23:26] Thumbnail error (attempt 1): [SSL: DECRYPTION_FAILED_OR_BAD_RECORD_MAC] decryption failed or bad record mac (_ssl.c:2657)
+[2025-12-25 18:24:26] Error getting video size for 1_c7NQryC8Wzm05Pb2gRgh2LztEKQtm-1: The read operation timed out
+[2025-12-25 18:24:26] Error getting video size for 1ghc1_GunMBdF8BbnAf7TvgeeV5eDdSz0: The read operation timed out
+[2025-12-25 18:24:26] Google Drive authentication successful.
+[2025-12-25 18:24:26] Google Drive authentication successful.
+[2025-12-25 18:24:32] Thumbnail error (attempt 1): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:24:32] Thumbnail error (attempt 0): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:24:32] Google Drive authentication successful.
+[2025-12-25 18:24:40] [NOTIFY] ⚠ Upload Failed
+[2025-12-25 18:24:50] Error listing videos (Attempt 1/3): The read operation timed out
+[2025-12-25 18:24:53] Thumbnail error (attempt 0): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:24:53] Thumbnail error (attempt 0): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:24:54] Google Drive authentication successful.
+[2025-12-25 18:24:54] Google Drive authentication successful.
+[2025-12-25 18:24:55] Thumbnail error (attempt 1): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:24:55] Thumbnail error (attempt 1): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:24:59] Thumbnail error (attempt 0): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:24:59] Error getting video size for 1_c7NQryC8Wzm05Pb2gRgh2LztEKQtm-1: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:25:00] Error getting video size for 1_c7NQryC8Wzm05Pb2gRgh2LztEKQtm-1: [SSL: DECRYPTION_FAILED_OR_BAD_RECORD_MAC] decryption failed or bad record mac (_ssl.c:2657)
+[2025-12-25 18:25:00] Drive Auth Critical Error: [SSL: DECRYPTION_FAILED_OR_BAD_RECORD_MAC] decryption failed or bad record mac (_ssl.c:2657)
+[2025-12-25 18:25:00] Google Drive authentication successful.
+[2025-12-25 18:25:01] Drive Auth Critical Error: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:25:01] Thumbnail error (attempt 1): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:25:23] Error getting video size for 1uKlKXbbDOwAcMiMRFiCwK7jpx4aiUhTd: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:25:23] Thumbnail error (attempt 0): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:25:24] Google Drive authentication successful.
+[2025-12-25 18:25:24] Google Drive authentication successful.
+[2025-12-25 18:25:24] Thumbnail error (attempt 0): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:25:25] Drive Auth Critical Error: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:25:25] Thumbnail error (attempt 1): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:25:27] Error getting video size for 1NhtzAM78SZ2PHBU4IJosroSN7j68E9sz: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:25:27] Thumbnail error (attempt 1): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:25:28] Google Drive authentication successful.
+[2025-12-25 18:25:30] Error getting video size for 1NhtzAM78SZ2PHBU4IJosroSN7j68E9sz: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:25:30] [NOTIFY] ⚠ Upload Failed
+[2025-12-25 18:25:30] Error getting video size for 1NhtzAM78SZ2PHBU4IJosroSN7j68E9sz: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:25:30] Google Drive authentication successful.
+[2025-12-25 18:25:30] Drive Auth Critical Error: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:25:34] Thumbnail error (attempt 0): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:25:34] Thumbnail error (attempt 0): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:25:35] Google Drive authentication successful.
+[2025-12-25 18:25:35] Error getting video size for 1_c7NQryC8Wzm05Pb2gRgh2LztEKQtm-1: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:25:35] Error getting video size for 1_c7NQryC8Wzm05Pb2gRgh2LztEKQtm-1: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:25:35] Drive Auth Critical Error: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:25:36] Google Drive authentication successful.
+[2025-12-25 18:25:36] Drive Auth Critical Error: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:25:36] Thumbnail error (attempt 1): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:25:36] Thumbnail error (attempt 1): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:28:08] [NOTIFY] 🔴 GigaClipper: Buffer Started
+[2025-12-25 18:28:08] Starting Python Server on port 5000...
+[2025-12-25 18:28:08] Google Drive authentication successful.
+[2025-12-25 18:28:14] Thumbnail error (attempt 0): [PROV: CIPHER_OPERATION_FAILED] cipher operation failed (_ssl.c:2657)
+[2025-12-25 18:28:14] Thumbnail error (attempt 0): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:28:14] Google Drive authentication successful.
+[2025-12-25 18:28:15] Drive Auth Critical Error: [SSL] internal error (_ssl.c:2657)
+[2025-12-25 18:28:15] Thumbnail error (attempt 1): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:28:27] Thumbnail error (attempt 0): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:28:27] Thumbnail error (attempt 0): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:28:28] Drive Auth Critical Error: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:28:28] Error getting video size for 1_c7NQryC8Wzm05Pb2gRgh2LztEKQtm-1: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:28:29] Error getting video size for 1NhtzAM78SZ2PHBU4IJosroSN7j68E9sz: [PROV: CIPHER_OPERATION_FAILED] cipher operation failed (_ssl.c:2657)
+[2025-12-25 18:28:29] Drive Auth Critical Error: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:28:29] Drive Auth Critical Error: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:28:29] Thumbnail error (attempt 1): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:28:30] Drive Auth Critical Error: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:28:30] Error getting video size for 1uKlKXbbDOwAcMiMRFiCwK7jpx4aiUhTd: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:28:31] Google Drive authentication successful.
+[2025-12-25 18:28:55] Thumbnail error (attempt 0): [SSL: DECRYPTION_FAILED_OR_BAD_RECORD_MAC] decryption failed or bad record mac (_ssl.c:2657)
+[2025-12-25 18:28:55] Error listing videos (Attempt 1/3): [SSL: DECRYPTION_FAILED_OR_BAD_RECORD_MAC] decryption failed or bad record mac (_ssl.c:2657)
+[2025-12-25 18:28:56] Google Drive authentication successful.
+[2025-12-25 18:29:37] [NOTIFY] 🔴 GigaClipper: Buffer Started
+[2025-12-25 18:29:37] Starting Python Server on port 5000...
+[2025-12-25 18:29:37] Google Drive authentication successful.
+[2025-12-25 18:30:10] Thumbnail error (attempt 0): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:30:10] Thumbnail error (attempt 0): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:30:11] Google Drive authentication successful.
+[2025-12-25 18:30:11] Error getting video size for 1ghc1_GunMBdF8BbnAf7TvgeeV5eDdSz0: [SSL: DECRYPTION_FAILED_OR_BAD_RECORD_MAC] decryption failed or bad record mac (_ssl.c:2657)
+[2025-12-25 18:30:12] Error getting video size for 1uKlKXbbDOwAcMiMRFiCwK7jpx4aiUhTd: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:30:12] Thumbnail error (attempt 1): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:30:12] Google Drive authentication successful.
+[2025-12-25 18:30:12] Drive Auth Critical Error: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:30:12] Thumbnail error (attempt 1): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:30:13] Error getting video size for 1_c7NQryC8Wzm05Pb2gRgh2LztEKQtm-1: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:30:13] Drive Auth Critical Error: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:30:14] Google Drive authentication successful.
+[2025-12-25 18:30:14] Error getting video size for 1NhtzAM78SZ2PHBU4IJosroSN7j68E9sz: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:30:15] Google Drive authentication successful.
+[2025-12-25 18:30:16] Error getting video size for 1NhtzAM78SZ2PHBU4IJosroSN7j68E9sz: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:30:16] Error getting video size for 1_c7NQryC8Wzm05Pb2gRgh2LztEKQtm-1: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:30:16] Error getting video size for 1_c7NQryC8Wzm05Pb2gRgh2LztEKQtm-1: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:30:16] Thumbnail error (attempt 0): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:30:17] Google Drive authentication successful.
+[2025-12-25 18:30:17] Thumbnail error (attempt 1): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:30:17] Google Drive authentication successful.
+[2025-12-25 18:30:17] Error getting video size for 1uKlKXbbDOwAcMiMRFiCwK7jpx4aiUhTd: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:30:18] Google Drive authentication successful.
+[2025-12-25 18:30:19] Google Drive authentication successful.
+[2025-12-25 18:30:19] Drive Auth Critical Error: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:30:19] Thumbnail error (attempt 1): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:31:05] [NOTIFY] 🔴 GigaClipper: Buffer Started
+[2025-12-25 18:31:05] Starting Python Server on port 5000...
+[2025-12-25 18:31:05] Google Drive authentication successful.
+[2025-12-25 18:31:11] Thumbnail error (attempt 0): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:31:11] Thumbnail error (attempt 0): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:31:12] Google Drive authentication successful.
+[2025-12-25 18:31:13] Thumbnail error (attempt 1): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:31:13] Drive Auth Critical Error: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:31:14] Thumbnail error (attempt 0): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:31:14] Error listing videos (Attempt 1/3): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:31:14] Thumbnail error (attempt 1): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:31:14] Google Drive authentication successful.
+[2025-12-25 18:31:15] Error listing videos (Attempt 2/3): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:31:15] Thumbnail error (attempt 1): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:32:19] Thumbnail error (attempt 0): The read operation timed out
+[2025-12-25 18:32:19] Thumbnail error (attempt 0): The read operation timed out
+[2025-12-25 18:32:19] Google Drive authentication successful.
+[2025-12-25 18:32:20] Thumbnail error (attempt 1): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:32:20] Drive Auth Critical Error: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:32:34] Error listing videos (Attempt 1/3): The read operation timed out
+[2025-12-25 18:32:38] Thumbnail error (attempt 0): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:32:38] Error getting video size for 1xzd0o3qJy_xLu2SJgY7M7hADi5Exqwo8: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:32:38] Google Drive authentication successful.
+[2025-12-25 18:32:39] Drive Auth Critical Error: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:32:39] Thumbnail error (attempt 1): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:33:06] Error listing videos (Attempt 1/3): The read operation timed out
+[2025-12-25 18:33:38] Thumbnail error (attempt 0): The read operation timed out
+[2025-12-25 18:33:38] Thumbnail error (attempt 0): The read operation timed out
+[2025-12-25 18:33:38] Error listing videos (Attempt 1/3): The read operation timed out
+[2025-12-25 18:33:39] Google Drive authentication successful.
+[2025-12-25 18:33:39] Thumbnail error (attempt 1): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:33:39] Drive Auth Critical Error: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:33:39] Error listing videos (Attempt 2/3): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:35:06] [NOTIFY] 🔴 GigaClipper: Buffer Started
+[2025-12-25 18:35:06] Starting Python Server on port 5000...
+[2025-12-25 18:35:06] Google Drive authentication successful.
+[2025-12-25 18:35:35] Error listing videos (Attempt 1/3): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:35:35] Thumbnail error (attempt 0): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:35:35] Thumbnail error (attempt 1): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:35:36] Google Drive authentication successful.
+[2025-12-25 18:35:37] Thumbnail error (attempt 1): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:35:37] Thumbnail error (attempt 1): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:35:37] Error listing videos (Attempt 2/3): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:35:39] Thumbnail error (attempt 0): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:35:39] Thumbnail error (attempt 0): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:35:40] Google Drive authentication successful.
+[2025-12-25 18:35:41] Drive Auth Critical Error: [PROV: CIPHER_OPERATION_FAILED] cipher operation failed (_ssl.c:2657)
+[2025-12-25 18:35:41] Thumbnail error (attempt 1): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:35:53] Error getting video size for 1_c7NQryC8Wzm05Pb2gRgh2LztEKQtm-1: <HttpError 404 when requesting https://www.googleapis.com/drive/v3/files/1_c7NQryC8Wzm05Pb2gRgh2LztEKQtm-1?fields=size&alt=json returned "File not found: 1_c7NQryC8Wzm05Pb2gRgh2LztEKQtm-1.". Details: "[{'message': 'File not found: 1_c7NQryC8Wzm05Pb2gRgh2LztEKQtm-1.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+[2025-12-25 18:35:53] Google Drive authentication successful.
+[2025-12-25 18:35:58] Error getting video size for 1ghc1_GunMBdF8BbnAf7TvgeeV5eDdSz0: <HttpError 404 when requesting https://www.googleapis.com/drive/v3/files/1ghc1_GunMBdF8BbnAf7TvgeeV5eDdSz0?fields=size&alt=json returned "File not found: 1ghc1_GunMBdF8BbnAf7TvgeeV5eDdSz0.". Details: "[{'message': 'File not found: 1ghc1_GunMBdF8BbnAf7TvgeeV5eDdSz0.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+[2025-12-25 18:35:59] Google Drive authentication successful.
+[2025-12-25 18:36:03] Error getting video size for 1NhtzAM78SZ2PHBU4IJosroSN7j68E9sz: [SSL: DECRYPTION_FAILED_OR_BAD_RECORD_MAC] decryption failed or bad record mac (_ssl.c:2657)
+[2025-12-25 18:36:03] Error getting video size for 1sDqg-T11HmRb7OCymtgc2_KWem36CEqR: Remote end closed connection without response
+[2025-12-25 18:36:03] Google Drive authentication successful.
+[2025-12-25 18:36:04] Google Drive authentication successful.
+[2025-12-25 18:36:04] Error getting video size for 1uKlKXbbDOwAcMiMRFiCwK7jpx4aiUhTd: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:36:05] Drive Auth Critical Error: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:36:05] Error getting video size for 1jLydSuJUXVglPO04DLxS3m01xJXg_lmm: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:36:05] Drive Auth Critical Error: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:36:05] Error getting video size for 1NhtzAM78SZ2PHBU4IJosroSN7j68E9sz: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:36:06] Google Drive authentication successful.
+[2025-12-25 18:36:07] Drive stream failed: 416 - {
+  "error": {
+    "code": 416,
+    "message": "Request range not satisfiable",
+    "errors": [{
+      "message": "Request range not satisfiable",
+      "domain": "global",
+      "reason": "requestedRangeNotSatisfiable"
+    }]
+  }
+}
+[2025-12-25 18:36:07] [NOTIFY] 💾 Saving Clip...
+[2025-12-25 18:36:08] Error getting video size for 1NhtzAM78SZ2PHBU4IJosroSN7j68E9sz: [SSL: DECRYPTION_FAILED_OR_BAD_RECORD_MAC] decryption failed or bad record mac (_ssl.c:2657)
+[2025-12-25 18:36:09] Google Drive authentication successful.
+[2025-12-25 18:36:15] [NOTIFY] ✅ Clip Saved: 30s
+[2025-12-25 18:36:20] Error listing videos (Attempt 1/3): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:36:38] Error getting video size for 1uKlKXbbDOwAcMiMRFiCwK7jpx4aiUhTd: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:36:38] Thumbnail error (attempt 1): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:36:39] Drive Auth Critical Error: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:36:39] Error getting video size for 1sDqg-T11HmRb7OCymtgc2_KWem36CEqR: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:36:40] Google Drive authentication successful.
+[2025-12-25 18:36:42] Error getting video size for 13PEQmAsMaJggD5Fk_sq3xFk1dvdoNXx2: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:36:42] Error getting video size for 1sDqg-T11HmRb7OCymtgc2_KWem36CEqR: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2657)
+[2025-12-25 18:36:43] Google Drive authentication successful.
+[2025-12-25 18:36:43] Google Drive authentication successful.
+[2025-12-25 18:43:24] Silent login failed: No valid token found.
+[2025-12-25 18:43:24] [NOTIFY] 🔴 GigaClipper: Buffer Started
+[2025-12-25 18:43:24] Starting Python Server on port 5000...
+[2025-12-25 18:45:24] Silent login failed: No valid token found.
+[2025-12-25 18:45:24] [NOTIFY] 🔴 GigaClipper: Buffer Started
+[2025-12-25 18:45:24] Starting Python Server on port 5000...
+[2025-12-25 18:45:25] Silent login failed: No valid token found.
+[2025-12-25 18:45:25] Silent login failed: No valid token found.
+[2025-12-25 18:46:47] Silent login failed: No valid token found.
+[2025-12-25 18:46:48] [NOTIFY] 🔴 GigaClipper: Buffer Started
+[2025-12-25 18:46:48] Starting Python Server on port 5000...
+[2025-12-25 18:46:48] Silent login failed: No valid token found.
+[2025-12-25 18:46:48] Silent login failed: No valid token found.
+[2025-12-25 18:46:49] Silent login failed: No valid token found.
+[2025-12-25 18:46:51] Silent login failed: No valid token found.
+[2025-12-25 18:46:51] Silent login failed: No valid token found.
+[2025-12-25 18:47:00] Silent login failed: No valid token found.
+[2025-12-25 18:47:00] Silent login failed: No valid token found.
+[2025-12-25 18:48:38] Silent login failed: No valid token found.
+[2025-12-25 18:48:38] [NOTIFY] 🔴 GigaClipper: Buffer Started
+[2025-12-25 18:48:38] Starting Python Server on port 5000...
+[2025-12-25 18:48:38] Silent login failed: No valid token found.
+[2025-12-25 18:48:38] Silent login failed: No valid token found.
+[2025-12-25 18:48:40] Silent login failed: No valid token found.
+[2025-12-25 18:48:41] Silent login failed: No valid token found.
+[2025-12-25 18:48:41] Silent login failed: No valid token found.
+[2025-12-25 18:48:46] Silent login failed: No valid token found.
+[2025-12-25 18:48:46] Silent login failed: No valid token found.
+[2025-12-25 18:49:02] Silent login failed: No valid token found.
+[2025-12-25 18:49:02] [NOTIFY] 🔴 GigaClipper: Buffer Started
+[2025-12-25 18:49:02] Starting Python Server on port 5000...
+[2025-12-25 18:49:03] Silent login failed: No valid token found.
+[2025-12-25 18:49:03] Silent login failed: No valid token found.
+[2025-12-25 18:49:38] Silent login failed: No valid token found.
+[2025-12-25 18:49:38] Silent login failed: No valid token found.
+[2025-12-25 18:53:16] Silent login failed: No valid token found.
+[2025-12-25 18:53:16] [NOTIFY] 🔴 GigaClipper: Buffer Started
+[2025-12-25 18:53:16] Starting Python Server on port 5000...
+[2025-12-25 18:53:16] Silent login failed: No valid token found.
+[2025-12-25 18:53:17] Silent login failed: No valid token found.
+[2025-12-25 18:53:19] Silent login failed: No valid token found.
+[2025-12-25 18:53:20] Silent login failed: No valid token found.
+[2025-12-25 18:53:20] Silent login failed: No valid token found.
+[2025-12-25 18:53:39] Silent login skipped: Auth lock held (likely interactive login in progress).
+[2025-12-25 18:53:43] Silent login skipped: Auth lock held (likely interactive login in progress).
+[2025-12-25 18:53:44] Silent login skipped: Auth lock held (likely interactive login in progress).
+[2025-12-25 18:53:45] Silent login skipped: Auth lock held (likely interactive login in progress).
+[2025-12-25 19:06:00] Silent login failed: No valid token found.
+[2025-12-25 19:06:00] [NOTIFY] 🔴 GigaClipper: Buffer Started
+[2025-12-25 19:06:00] Starting Python Server on port 5000...
+[2025-12-25 19:07:44] Silent login failed: No valid token found.
+[2025-12-25 19:07:45] [NOTIFY] 🔴 GigaClipper: Buffer Started
+[2025-12-25 19:07:45] Starting Python Server on port 5000...
+[2025-12-25 19:13:51] Silent login failed: No valid token found.
+[2025-12-25 19:13:51] [NOTIFY] 🔴 GigaClipper: Buffer Started
+[2025-12-25 19:13:51] Starting Python Server on port 5000...
+[2025-12-25 19:19:34] Silent login failed: No valid token found.
+[2025-12-25 19:19:34] [NOTIFY] 🔴 GigaClipper: Buffer Started
+[2025-12-25 19:19:34] Starting Python Server on port 5000...
+[2025-12-25 19:23:41] Silent login failed: No valid token found.
+[2025-12-25 19:23:41] [NOTIFY] 🔴 GigaClipper: Buffer Started
+[2025-12-25 19:23:41] Starting Python Server on port 5000...
+[2025-12-25 19:23:57] Silent login failed: No valid token found.
+[2025-12-25 19:23:57] [NOTIFY] 🔴 GigaClipper: Buffer Started
+[2025-12-25 19:23:57] Starting Python Server on port 5000...
+[2025-12-25 19:27:13] Silent login failed: No valid token found.
+[2025-12-25 19:27:13] [NOTIFY] 🔴 GigaClipper: Buffer Started
+[2025-12-25 19:27:13] Starting Python Server on port 5000...
+[2025-12-25 19:28:46] Silent login failed: No valid token found.
+[2025-12-25 19:28:46] [NOTIFY] 🔴 GigaClipper: Buffer Started
+[2025-12-25 19:28:46] Starting Python Server on port 5000...
+[2025-12-25 19:31:43] Silent login failed: No valid token found.
+[2025-12-25 19:31:43] [NOTIFY] 🔴 GigaClipper: Buffer Started
+[2025-12-25 19:31:43] Starting Python Server on port 5000...
+[2025-12-25 19:35:15] Silent login failed: No valid token found.
+[2025-12-25 19:35:15] [NOTIFY] 🔴 GigaClipper: Buffer Started
+[2025-12-25 19:35:15] Starting Python Server on port 5000...
+[2025-12-25 19:35:16] Silent login failed: No valid token found.
+[2025-12-25 19:35:16] Silent login failed: No valid token found.
+[2025-12-25 19:37:18] Silent login failed: No valid token found.
+[2025-12-25 19:37:18] [NOTIFY] 🔴 GigaClipper: Buffer Started
+[2025-12-25 19:37:18] Starting Python Server on port 5000...
+[2025-12-25 19:37:18] Silent login failed: No valid token found.
+[2025-12-25 19:37:18] Silent login failed: No valid token found.
+[2025-12-25 19:37:28] Silent login failed: No valid token found.
+[2025-12-25 19:37:29] Silent login failed: No valid token found.
+[2025-12-25 19:37:29] Silent login failed: No valid token found.
+[2025-12-25 19:37:54] Silent login skipped: Auth lock held (likely interactive login in progress).
+[2025-12-25 19:37:54] Silent login skipped: Auth lock held (likely interactive login in progress).
+[2025-12-25 19:37:58] Silent login skipped: Auth lock held (likely interactive login in progress).
+[2025-12-25 19:37:58] Silent login skipped: Auth lock held (likely interactive login in progress).
+[2025-12-25 19:38:02] Silent login skipped: Auth lock held (likely interactive login in progress).
+[2025-12-25 20:34:22] Silent login failed: No valid token found.
+[2025-12-25 20:34:22] [NOTIFY] 🔴 GigaClipper: Buffer Started
+[2025-12-25 20:34:22] Starting Python Server on port 5000...
+[2025-12-25 20:34:26] Silent login failed: No valid token found.
+[2025-12-25 20:34:26] Silent login failed: No valid token found.
+[2025-12-25 20:34:26] Silent login failed: No valid token found.
+[2025-12-25 20:34:26] Silent login failed: No valid token found.
+[2025-12-25 20:34:29] Silent login failed: No valid token found.
+[2025-12-25 20:34:29] Silent login failed: No valid token found.
+[2025-12-25 20:38:54] Silent login failed: No valid token found.
+[2025-12-25 20:38:54] [NOTIFY] 🔴 GigaClipper: Buffer Started
+[2025-12-25 20:38:54] Starting Python Server on port 5000...
+[2025-12-25 20:38:55] Silent login failed: No valid token found.
+[2025-12-25 20:38:55] Silent login failed: No valid token found.
+[2025-12-25 20:38:55] Silent login failed: No valid token found.
+[2025-12-25 20:38:55] Silent login failed: No valid token found.
+[2025-12-25 20:39:12] Silent login failed: No valid token found.
+[2025-12-25 20:39:12] Silent login failed: No valid token found.
+[2025-12-25 20:39:30] Silent login failed: No valid token found.
+[2025-12-25 20:41:31] Silent login failed: No valid token found.
+[2025-12-25 20:41:31] [NOTIFY] 🔴 GigaClipper: Buffer Started
+[2025-12-25 20:41:31] Starting Python Server on port 5000...
+[2025-12-25 20:41:32] Silent login failed: No valid token found.
+[2025-12-25 20:41:32] Silent login failed: No valid token found.
+[2025-12-25 20:41:32] Silent login failed: No valid token found.
+[2025-12-25 20:41:32] Silent login failed: No valid token found.
+[2025-12-25 20:41:34] Silent login failed: No valid token found.
+[2025-12-25 20:41:34] Silent login failed: No valid token found.
+[2025-12-25 20:41:48] Silent login failed: No valid token found.
+[2025-12-25 20:41:49] Silent login failed: No valid token found.
+[2025-12-25 20:41:51] Silent login failed: No valid token found.
+[2025-12-25 20:41:55] Silent login failed: No valid token found.
+[2025-12-25 20:41:56] Silent login failed: No valid token found.
+[2025-12-25 20:41:57] Silent login failed: No valid token found.
+[2025-12-25 20:41:57] Silent login failed: No valid token found.
+[2025-12-25 20:41:58] Silent login failed: No valid token found.
+[2025-12-25 20:43:00] Silent login failed: No valid token found.
+[2025-12-25 20:43:00] [NOTIFY] 🔴 GigaClipper: Buffer Started
+[2025-12-25 20:43:00] Starting Python Server on port 5000...
+[2025-12-25 20:43:01] Silent login failed: No valid token found.
+[2025-12-25 20:43:01] Silent login failed: No valid token found.
+[2025-12-25 20:43:01] Silent login failed: No valid token found.
+[2025-12-25 20:43:01] Silent login failed: No valid token found.
+[2025-12-25 20:43:02] Silent login failed: No valid token found.
+[2025-12-25 20:43:02] Silent login failed: No valid token found.
+[2025-12-25 20:43:08] Silent login failed: No valid token found.
+[2025-12-25 20:47:28] Silent login failed: No valid token found.
+[2025-12-25 20:47:28] [NOTIFY] 🔴 GigaClipper: Buffer Started
+[2025-12-25 20:47:28] Starting Python Server on port 5000...
+[2025-12-25 20:51:58] Silent login failed: No valid token found.
+[2025-12-25 20:51:58] [NOTIFY] 🔴 GigaClipper: Buffer Started
+[2025-12-25 20:51:58] Starting Python Server on port 5000...
+[2025-12-25 20:59:20] Silent login failed: No valid token found.
+[2025-12-25 20:59:20] [NOTIFY] 🔴 GigaClipper: Buffer Started
+[2025-12-25 20:59:20] Starting Python Server on port 5000...
+[2025-12-25 20:59:21] Silent login failed: No valid token found.
+[2025-12-25 20:59:21] Silent login failed: No valid token found.
+[2025-12-25 20:59:21] Silent login failed: No valid token found.
+[2025-12-25 20:59:21] Silent login failed: No valid token found.
+[2025-12-25 21:01:29] Silent login failed: No valid token found.
+[2025-12-25 21:01:29] [NOTIFY] 🔴 GigaClipper: Buffer Started
+[2025-12-25 21:01:29] Starting Python Server on port 5000...
+[2025-12-25 21:03:18] Silent login failed: No valid token found.
+[2025-12-25 21:03:18] [NOTIFY] 🔴 GigaClipper: Buffer Started
+[2025-12-25 21:03:18] Starting Python Server on port 5000...
+[2025-12-25 21:03:43] Silent login failed: No valid token found.
+[2025-12-25 21:03:43] [NOTIFY] 🔴 GigaClipper: Buffer Started
+[2025-12-25 21:03:43] Starting Python Server on port 5000...
+[2025-12-25 21:05:12] Silent login failed: No valid token found.
+[2025-12-25 21:05:12] [NOTIFY] 🔴 GigaClipper: Buffer Started
+[2025-12-25 21:05:12] Starting Python Server on port 5000...
+[2025-12-25 21:09:27] Silent login failed: No valid token found.
+[2025-12-25 21:09:27] [NOTIFY] 🔴 GigaClipper: Buffer Started
+[2025-12-25 21:09:27] Starting Python Server on port 5000...
+[2025-12-25 21:09:28] Silent login failed: No valid token found.
+[2025-12-25 21:09:28] Silent login failed: No valid token found.
+[2025-12-25 21:09:28] Silent login failed: No valid token found.
+[2025-12-25 21:09:28] Silent login failed: No valid token found.
+[2025-12-25 21:09:32] [NOTIFY] GigaClipper: Buffer Stopped
+[2025-12-25 21:09:50] Silent login failed: No valid token found.
+[2025-12-25 21:09:50] [NOTIFY] 🔴 GigaClipper: Buffer Started
+[2025-12-25 21:09:50] Starting Python Server on port 5000...
+[2025-12-25 21:09:50] Silent login failed: No valid token found.
+[2025-12-25 21:09:50] Silent login failed: No valid token found.
+[2025-12-25 21:09:50] Silent login failed: No valid token found.
+[2025-12-25 21:09:51] Silent login failed: No valid token found.
+[2025-12-25 21:47:15] Silent login failed: No valid token found.
+[2025-12-25 21:47:15] [NOTIFY] 🔴 GigaClipper: Buffer Started
+[2025-12-25 21:47:15] Starting Python Server on port 5000...
+[2025-12-25 21:47:15] Silent login failed: No valid token found.
+[2025-12-25 21:47:15] Silent login failed: No valid token found.
+[2025-12-25 21:47:15] Silent login failed: No valid token found.
+[2025-12-25 21:47:15] Silent login failed: No valid token found.
+[2025-12-25 21:53:38] Silent login failed: No valid token found.
+[2025-12-25 22:20:41] Silent login failed: No valid token found.
+[2025-12-25 22:20:41] [NOTIFY] 🔴 GigaClipper: Buffer Started
+[2025-12-25 22:20:41] Starting Python Server on port 5000...
+[2025-12-25 22:20:42] Silent login failed: No valid token found.
+[2025-12-25 22:20:42] Silent login failed: No valid token found.
+[2025-12-25 22:20:42] Silent login failed: No valid token found.
+[2025-12-25 22:20:42] Silent login failed: No valid token found.
+[2025-12-25 22:20:46] Silent login failed: No valid token found.
+[2025-12-25 22:20:46] Silent login failed: No valid token found.
+[2025-12-25 22:31:42] Silent login failed: No valid token found.
+[2025-12-25 22:31:42] [NOTIFY] 🔴 GigaClipper: Buffer Started
+[2025-12-25 22:31:42] Starting Python Server on port 5000...
+[2025-12-25 22:32:42] Silent login failed: No valid token found.
+[2025-12-25 22:32:42] [NOTIFY] 🔴 GigaClipper: Buffer Started
+[2025-12-25 22:32:42] Starting Python Server on port 5000...
+[2025-12-25 22:32:43] Silent login failed: No valid token found.
+[2025-12-25 22:32:43] Silent login failed: No valid token found.
+[2025-12-25 22:32:43] Silent login failed: No valid token found.
+[2025-12-25 22:32:43] Silent login failed: No valid token found.
+[2025-12-25 22:32:59] Silent login failed: No valid token found.
+[2025-12-25 22:32:59] Silent login failed: No valid token found.
